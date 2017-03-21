@@ -12,12 +12,10 @@ document.addEventListener("DOMContentLoaded",
         .getElementById("content")
         .innerHTML = message;
 
-      if (name === "student") {
-        var title = 
-          document
-            .querySelector("#title")
-            .textContent;
-        title += " & Lovin' it!";
+      if (name === "Parth") {
+        var os1 = "10"
+        var maths ="10"
+        
         document
             .querySelector("h1")
             .textContent = title;
